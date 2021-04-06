@@ -18,14 +18,14 @@ html{
     justify-content:space-between;
     margin:0 auto;
     align-items:center;
-    max-width: 1160px;
+    max-width: 116em;
 }
 .navegacao-head a{
     color: #545454;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    margin-right:48px;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    margin-right:4.8rem;
     text-decoration:none;
 }
 .container{
@@ -33,41 +33,44 @@ html{
     flex-direction:row;
     justify-content:space-between;
     align-items:flex-start;
-    max-width: 1160px;
+    max-width: 116em;
     margin:56px auto;
 }
 .artigo{
-    max-width: 730px;
+    max-width: 73em;
     box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    padding-top:24px;
-    margin-bottom: 40px;
+    padding-top:2.4em;
+    margin-bottom: 4em;
+}
+.artigo img{
+    max-width: 73rem;
 }
 .texto p, .artigo h1, p.data{
     margin-left:2.4em;
     margin-right:2.4em;
 }
 .contato{
-    padding-left:24px;
+    padding-left:2.4em;
 }
 .texto p{
-    max-width:682px;
+    max-width:68.2em;
     color:#545454;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    margin-top:24px;
-    margin-bottom:24px;
+    font-size: 1.4em;
+    line-height: 1.9rem;
+    margin-top:2.4rem;
+    margin-bottom:2.4rem;
 }
 .info-contato span{
     display:inline-block;
     font-weight: bold;
-    margin-bottom: 14px;
-    margin-top: 26px;
-    margin-left: 8px;
+    margin-bottom: 1.4em;
+    margin-top: 2.6rem;
+    margin-left: 0.8rem;
 }
 .info-contato span, .info-contato  p{
-    font-size:14px;
+    font-size:1.4rem;
     color:#000000;
 }
 .artigo h2{
@@ -76,10 +79,10 @@ html{
 }
 .artigo h1{
     font-weight: bold;
-    font-size: 24px;
-    line-height: 33px;
-    margin-bottom:8px;
-    margin-left:24px;
+    font-size: 2.4em;
+    line-height: 3.3rem;
+    margin-bottom:0.8rem;
+    margin-left:2.4rem;
 }
 .contato h1, .contato p {
     margin-left:0;
@@ -91,17 +94,17 @@ html{
 .buttom a{
     color:#545454;
     text-decoration:none;
-    font-size: 14px;
-    padding:12px 24px;
+    font-size: 1.4em;
+    padding:1.2rem 2.4rem;
     display: inline-block;
     border:1px solid #FE0078;
-    border-radius: 20px;
-    margin-right:24px;
-    margin-bottom:24px;
+    border-radius: 2rem;
+    margin-right:2.4rem;
+    margin-bottom:2.4rem;
 }
 .buttom-form a{
     color:#FFFFFF;
-    margin-top:48px;
+    margin-top:4.8rem;
     margin-right:0;
     background-color:#FE0078;
 }
@@ -113,52 +116,52 @@ html{
 p.data{
     color: #929292;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 16px;
-    margin-bottom:14px;
-    margin-left:24px;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin-bottom:1.4rem;
+    margin-left:2.4rem;
 }
 
 /*
 ------Menu lateral------
 */
 .menu-lateral{
-    max-width:380px;
+    max-width:38rem;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
 input{
-    min-width:340px;
-    margin-top:20px;
-    margin-bottom:25px;
-    margin-left:20px;
-    margin-right:20px;
+    min-width:34rem;
+    margin-top:2rem;
+    margin-bottom:2.5rem;
+    margin-left:2rem;
+    margin-right:2rem;
     border:1px solid #EEEEEE;
-    border-radius:10px;
-    padding-top:17px;
-    padding-bottom:16px;
-    padding-left:20px;
+    border-radius:1rem;
+    padding-top:1.7rem;
+    padding-bottom:1.6rem;
+    padding-left:2rem;
 }
 input:hover{
     border:1px solid #FE0078;
 }
 .titulo h3{
 font-weight: bold;
-font-size: 18px;
-line-height: 25px;
+font-size: 1.8rem;
+line-height: 2.5rem;
 }
 .categoria a{
     color:#545454;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
 }
 .titulo{
-    margin-bottom:34px;
-    margin-left:11px;
-    padding-left:11px;
-    padding-top:9px;
-    padding-bottom:9px;
+    margin-bottom:3.4rem;
+    margin-left:1.1rem;
+    padding-left:1.1rem;
+    padding-top:0.9rem;
+    padding-bottom:0.9rem;
     border-left:2px solid #FE0078;
 }
 .categoria-items{
@@ -166,11 +169,11 @@ line-height: 25px;
     flex-direction:row;
     border-bottom:2px dotted #EEEEEE;
     justify-content:space-between;
-    padding-bottom:16px;
-    padding-right:18px;
-    margin-top:16px;
-    margin-right:20px;
-    margin-left:11px;
+    padding-bottom:1.6rem;
+    padding-right:1.8rem;
+    margin-top:1.6rem;
+    margin-right:2rem;
+    margin-left:1.1rem;
     
 }
 .categoria-items:hover{
@@ -181,38 +184,38 @@ line-height: 25px;
     
 }
 .categoria-items a{
-    padding-left:11px;
+    padding-left:1.1rem;
     width:100%;
     display:flex;
     justify-content:space-between;
     cursor: pointer;
 }
 .distanciar{
-    margin-bottom:40px;
+    margin-bottom:4rem;
 }
 .propaganda{
-    max-width:340px;
+    max-width:34rem;
     margin-left:20px;
-    margin-bottom:32px;
-    padding:96px 0;
+    margin-bottom:3.2rem;
+    padding:9.6rem 0;
     text-align: center;
     background-color:#EEEEEE;
 }
 .propaganda p{
     color: #545454;
     font-weight: normal;
-    font-size: 36px;
-    line-height: 49px;
+    font-size: 3.6rem;
+    line-height: 4.9rem;
 }
 ul{
-    padding-inline-start: 16px;
+    padding-inline-start: 1.6rem;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    margin-left:48px;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    margin-left:4.8rem;
 }
 .txt-black{
-    padding-bottom:46px;
+    padding-bottom:4.6rem;
 }
 .txt-black p{
     color:#000000;
@@ -221,43 +224,43 @@ ul{
     font-style:italic;
 }
 textarea{
-    width:732px;
+    width:73.2rem;
     border:1px solid #EEEEEE;
-    margin-top:8px;
+    margin-top:0.8rem;
 }
 textarea:hover{
     border:1px solid #FE0078;
     cursor: pointer;
 }
 .comentarios{
-    width: 732px;
+    width: 73.2rem;
     margin:0 auto;
 }
 .comentarios h1{
     font-weight: bold;
-    font-size: 24px;
-    line-height: 33px;
-    margin-bottom:24px;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    margin-bottom:2.4rem;
 }
 .formulario-de-dados{
-    max-width: 732px;
+    max-width: 73.2rem;
     display:flex;
     justify-content:space-between;
-    margin-bottom:24px;
+    margin-bottom:2.4rem;
 }
 label{
     font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
 }
 .dados input{
     display:flex;
     flex-direction: column;
     border:1px solid #EEEEEE;
     border-radius: 2px;
-    margin-top:8px;
+    margin-top:0.8rem;
     margin-left:0;
-    width: 354px;
+    width: 35.4rem;
     
 }
 .sobre input{
@@ -267,4 +270,13 @@ label{
 .dados input:hover{
     border:1px solid #FE0078;
     cursor: pointer;
+}
+.rodape{
+    color:#FFFFFF;
+    background-color: #000000;
+    padding-top:2.5rem;
+    padding-bottom:2.6rem;
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
 }
