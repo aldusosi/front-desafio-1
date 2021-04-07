@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Desafio-unidade-01</title>
+        <title>Contato</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     </head>
@@ -17,7 +17,7 @@
                 </div>
                 <div class="navegacao-head">
                     <a href="index.html">Inicio</a>
-                    <a href="">Sobre</a>
+                    <a href="Ops.html">Sobre</a>
                     <a href="">Contato</a>
                 </div> 
             </div>
@@ -64,25 +64,29 @@
                         <h2>ENTRE EM CONTATO</h2>
         
                         <form>
-                            <div class="formulario-de-dados">
-                            <div class="dados">
-                            <label for="nome">Nome</label>
-                            <input type="text" id="nome">
+                            <div class="formulario-de-contato">
+                                <div class="dados-contato">
+                                    <label for="nome">Nome</label>
+                                    <input type="text" id="nome">
+                                </div>
+                                <div class="dados-contato">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" id="email">
+                                </div>
+                            
                             </div>
-                            <div class="dados">
-                                <label for="email">E-mail</label>
-                                <input type="email" id="email">
-                            </div>
-                            </div>
-                            <div class="sobre">
+                            <div class="dados-sobre dados-contato">
                                 <label for="sobre">Sobre</label>
                                 <input type="text" id="sobre">
                             </div>
                             
                             <label for="comentar">Comentário</label>
-                            <textarea name="" id="comentar" cols="30" rows="10"></textarea>
-        
-                            <div class="buttom buttom-form"><a>Enviar</a></div>
+                            <div class="text-area">
+                                <textarea style="width:93%;" class="text-area" name="" id="comentar" cols="30" rows="10"></textarea>
+                            </div>
+                            
+
+                            <div class="buttom"><input class="comentar" style="max-width: 118px;"  type="submit" value="Enviar"></div>
                         </form>
                         
                         
