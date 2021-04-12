@@ -91,10 +91,20 @@ html{
     display:flex;
     justify-content:flex-end;
 }
+.buttom a{
+    color:#FE0078;
+    text-decoration:none;
+    font-size: 1.4em;
+    padding:1.2rem 2.4rem;
+    display: inline-block;
+    border:1px solid #FE0078;
+    border-radius: 2rem;
+    margin-bottom:2.4rem;
+}
 .comentar{
     margin:48px 0;
 }
-.comentar, .buttom a{
+.comentar, .buttom input{
     color:white;
     text-decoration:none;
     font-size: 1.4em;
