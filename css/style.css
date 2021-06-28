@@ -161,6 +161,9 @@ input#pesquisa{
 input#pesquisa:hover{
     border:1px solid #FE0078;
 }
+input#pesquisa:focus{
+    border:none;
+}
 .titulo h3{
 font-weight: bold;
 font-size: 1.8rem;
